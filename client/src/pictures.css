@@ -1,0 +1,60 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.sticker {
+  width: 10%;
+}
+
+#picture_title
+{
+  text-align: center;
+  margin-top: 4%;
+}
+#sticker0 {
+  margin-left: 34%;
+}
+
+#video {
+  width: 550px;
+  height: auto;
+  border-style: solid;
+}
+
+#title {
+  text-align: center;
+  margin-top: 4%;
+}
+
+#capture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5%;
+  width: 5%;
+  background-color: #FA8072;
+  font-weight: bold;
+  font-size: 16x;
+}
+
+#canvas {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+}
+
+#upload {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5%;
+  width: 5%;
+  background-color: #FA8072;
+  font-weight: bold;
+  font-size: 12px;
+}

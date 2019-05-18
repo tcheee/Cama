@@ -1,0 +1,66 @@
+#home {
+  margin-left: 5%;
+  text-decoration: none;
+}
+#home:link, #home:visited {
+    color: black;
+}
+
+#home:visited {
+  text-decoration: none;
+}
+
+#home, #camera, #dropdown {
+  cursor: pointer;
+}
+
+#camera {
+  width: 50px;
+  height: 50px;
+}
+
+.dropbtn {
+  border: none;
+  display: inline;
+}
+
+#dropdown {
+  margin-right: 5%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #E0FFFF;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: center;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+#dropdown:hover .dropdown-content {display: block;}
+
+header {
+  margin: 0;
+  position: fixed;
+  top: 0;
+
+  width: 100%;
+  height: 60px;
+
+  background-color: #FAF0E6;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}

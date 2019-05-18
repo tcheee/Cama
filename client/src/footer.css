@@ -1,0 +1,16 @@
+footer {
+  position: fixed;
+
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #FAF0E6;
+  align-items: center;
+
+}
+
+#signature {
+  text-align: right;
+  margin: auto;
+}
